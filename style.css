@@ -8,6 +8,54 @@ body{
     margin:0 ;
     padding: 0;
 }
+
+
+
+/* Shared Styles */
+.cmn-p{
+
+}
+
+
+/* Header Styles */
 header{
     background-color: #FFF4E7;
+    
+}
+
+.header-container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.nav-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.nav-container nav ul{
+    display: flex;
+}
+
+.nav-container nav ul li{
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+.nav-container nav ul li a{
+    text-decoration: none;
+}
+
+.heading-banner img{
+    width: 100%;
+}
+
+
+/* Main styles */
+
+main{
+    max-width: 1440px;
 }
